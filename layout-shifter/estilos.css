@@ -1,0 +1,25 @@
+body{
+  margin: 0 auto;
+}
+.container{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow:row wrap;
+}
+.c1{
+    background-color:#afedbe;
+    height: 100px;
+}
+.c2{
+    background-color: cornflowerblue;
+    height: 400px;
+}
+.c3{
+    background-color: lightcoral;
+    height: 400px;
+}
+@media (min-width: 500px) {
+    .c1{
+        height:175px ;
+    }
+}
